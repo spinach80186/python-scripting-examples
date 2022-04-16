@@ -22,3 +22,9 @@ This program converts images from a regular 3-color cone view into a tritanopic 
 cipher tool.py
 
 This script was made when one of my friends created a cipher and challenged me to crack it. While cracking the cipher, I made this script to encode and decode it. It was also helpful during the process of cracking it to have python handy, because its string manipulation capabilities are very versatile and assist in brute-forcing possible encodings. The format is as follows: "hello (there) world!" encodes to the numeric equivalent of "htw-ello(-here)-orld"
+
+(EVIL) HANGMAN
+
+This is a comprehensive C project. C is conceptually and syntactically similar to python, but differs in that it allows more direct access to the hardware.
+test_def, unit_test.c & .h - contain code for testing the program functions. 25 tests
+Other files include implementations of memory management objects (e.g. vectors), an AVL sorted binary tree, and an implementation of a special string object. Altogether this program creates a hangman game where the computer purposely cheats, changing the answer word as it goes to select the hardest to guess option, making the game nearly impossible.
